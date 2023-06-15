@@ -45,3 +45,38 @@ else:
     else:
         print("El numero mayor es ",num3)
 
+#Ejercicio 3- Crear un menu para una calculadora basica
+#SUMA S, RESTA R, MULTIPLICACION M, DIVISION D
+print("Calculadora Basica")
+print("1. Sumar")
+print("2. Restar")
+print("3. Multiplicar")
+print("4. Dividir")
+opcion=int(input("Seleccione la operacion de desea realizar: "))
+if opcion==1:
+    numero1=float(input("Ingrese un numero: "))
+    numero2=float(input("Ingrese un numero: "))
+    suma=numero1+numero2
+    print("La suma de ",numero1,"+",numero2,"=", suma)
+elif opcion==2:
+    numero1=float(input("Ingrese un numero: "))
+    numero2=float(input("Ingrese un numero: "))
+    resta=numero1-numero2
+    print("La resta de ",numero1,"-",numero2,"=", resta)
+elif opcion==3:
+    numero1=float(input("Ingrese un numero: "))
+    numero2=float(input("Ingrese un numero: "))
+    multiplicar=numero1*numero2
+    print("La multiplicación de ",numero1,"x",numero2,"=", multiplicar)
+elif opcion==4:
+    numero1=float(input("Ingrese un numero: "))
+    numero2=float(input("Ingrese un numero: "))
+    dividir=numero1/numero2
+    print("La divición de ",numero1,"/",numero2,"=", dividir)
+else:
+    print("Error operación no valida")
+
+
+
+
+

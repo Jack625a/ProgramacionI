@@ -1,7 +1,7 @@
 #Ejercicio 1 - 10/08/2023
 #Conexion con Apis (RED NEURONAL - OPENAI)
 import openai
-openai.api_key="su apikey"
+openai.api_key=""
 
 def obtenerRespuesta(pregunta):
     respuesta=openai.Completion.create(

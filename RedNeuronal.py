@@ -1,4 +1,4 @@
-#Ejercicio 1 - 10/08/2023
+#Ejercicio 1 - 10/08/2023star
 #Conexion con Apis (RED NEURONAL - OPENAI)
 import openai
 openai.api_key=""

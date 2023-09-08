@@ -1,5 +1,5 @@
 # PASO 1. UtiliZAR LA IMAGEN BASE
-FROM python: 3.11
+FROM python:3.11.5
 # PASO 2. Establecer el directorio de trabajo (CONTENEDOR)
 WORKDIR /usr/src/app
 

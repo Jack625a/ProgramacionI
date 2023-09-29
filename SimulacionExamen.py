@@ -116,7 +116,7 @@ sumarNumero(12.55,9)
 sumarNumero(8,665.52)
 sumarNumero(num1,num2)
 
-#Tkinter - visual
+#Tkinter - visuala
 
 
 
